@@ -17,10 +17,10 @@
 <div class="container">
     <svg height="250" width="250" class="grafik">
         <!--sehpa-->
-        <line class="item" x1="50" y1="20" x2="130" y2="20"></line>
-        <line class="item" x1="130" y1="20" x2="130" y2="50"></line>
-        <line class="item" x1="50" y1="20" x2="50" y2="250"></line>
-        <line class="item" x1="10" y1="250" x2="90" y2="250"></line>
+        <line x1="50" y1="20" x2="130" y2="20"></line>
+        <line x1="130" y1="20" x2="130" y2="50"></line>
+        <line x1="50" y1="20" x2="50" y2="250"></line>
+        <line x1="10" y1="250" x2="90" y2="250"></line>
         <!--kafa-->
         <circle class="item" cx="130" cy="70" r="20"></circle>
         <!--gövde-->
@@ -31,9 +31,24 @@
         <!--bacaklar-->
         <line class="item" x1="130" y1="170" x2="160" y2="210"></line>
         <line class="item" x1="130" y1="170" x2="100" y2="210"></line>
+        <!--kılıç-->
+        <line class="item" x1="90" y1="100" x2="170" y2="100"></line>
     </svg>
+    <div id="wrong-letters"></div>
+    <div id="word"></div>
 </div>
 
+<div id="popup-container">
+    <div class="popup">
+        <h2 id="success-message">Kazandınız</h2>
+        <button id="play-again">Tekrar Oyna</button>
+    </div>
+</div>
+
+<div id="warning">
+    <p>Bu harfi zaten girdiniz..</p>
+
+</div>
 
 <script src="app.js"></script>
 
