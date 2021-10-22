@@ -253,6 +253,7 @@ catch (e){
 }
 finally {
     console.log("finally block");
+    //hertürlü çalışır
 }
 
 */
